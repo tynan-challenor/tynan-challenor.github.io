@@ -3,8 +3,7 @@ title: "Tynan Challenor"
 image: assets/photo.jpeg
 image-alt: "Portrait of Tynan Challenor"
 about:
-  template: solana  
-  id: homepage-profile
+  template: solana
   links:
     - icon: github
       text: "GitHub"
@@ -24,9 +23,7 @@ about:
       target: _blank
 ---
 
-::: {#homepage-profile}
 Welcome! I am third year PhD student in economics at the University of Washington, specializing in urban and development economics.
-:::
 
 <figure class="homepage-art">
   <img src="assets/seattle_paul_gustin.jpg" alt="Boats moored along the Seattle waterfront, with light reflecting across the water">

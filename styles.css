@@ -1,7 +1,7 @@
 .homepage-art {
   display: block;
-  width: min(100%, 20rem);
-  margin: 1rem auto 2rem;
+  width: min(100%, 16rem);
+  margin: 1rem 0 0;
 }
 
 .homepage-art img {
@@ -21,24 +21,8 @@
   margin-top: 0.25rem;
 }
 
-@media (min-width: 1200px) {
-  #quarto-content > main:has(> .homepage-art) {
-    display: grid;
-    grid-column: screen-start / screen-end;
-    grid-template-columns: subgrid;
-  }
-
-  #quarto-content > main:has(> .homepage-art) > .quarto-about-solana {
-    grid-column: body-start / body-end;
-    grid-row: 1;
-  }
-
-  #quarto-content > main > .homepage-art {
-    grid-column: screen-start / body-start;
-    grid-row: 1;
-    align-self: start;
-    justify-self: end;
-    width: min(14rem, calc(100% - 2rem));
-    margin: 3em 1rem 2rem;
+@media (max-width: 991.98px) {
+  .homepage-art {
+    margin-inline: auto;
   }
 }
