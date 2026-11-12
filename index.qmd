@@ -1,5 +1,7 @@
 ---
 title: "Tynan Challenor"
+image: assets/photo.jpeg
+image-alt: "Portrait of Tynan Challenor"
 about:
   template: solana  
   links:
