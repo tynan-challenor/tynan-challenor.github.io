@@ -2,10 +2,17 @@
 title: "Research"
 ---
 
+<figure class="research-quote">
+  <blockquote>
+    <p>“The problem of constructing large-scale public works in a crowded urban setting, where such works impinge on the lives of, or displace, thousands of voters, is one which democracy has not yet solved.”</p>
+  </blockquote>
+  <figcaption>Robert A. Caro, <cite>The Power Broker</cite></figcaption>
+</figure>
+
 ### Work in progress
 
-- **Flat or Flats? Spillovers from Upzoning on Informality and Mortality in Delhi**    
-  *(With Eric Wang)*
+- **Flat or Flats? Spillovers from Upzoning on Informality and Child Mortality in Delhi**    
+  *(With Eric Wang, Sahil Gandhi, and Vaidehi Tandel)*
 
-- **BAMIMBY (By All Means In My Back Yard): A Dynamic Urban Model of Street Votes**  
+- **Block Votes: Examining the Tradeoffs from Opposing Density**  
   

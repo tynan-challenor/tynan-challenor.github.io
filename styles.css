@@ -16,3 +16,33 @@
   font-size: 0.8rem;
   line-height: 1.4;
 }
+
+.research-quote {
+  display: block;
+  margin: 0 0 2rem;
+  padding-inline-start: 1.1rem;
+  border-inline-start: 3px solid var(--bs-border-color);
+}
+
+.research-quote blockquote {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  font-size: 1.12rem;
+  line-height: 1.6;
+}
+
+.research-quote blockquote p {
+  margin: 0;
+}
+
+.research-quote figcaption {
+  margin-top: 0.55rem;
+  color: var(--bs-secondary-color);
+  font-size: 0.875rem;
+}
+
+.research-quote cite {
+  font-style: italic;
+}
