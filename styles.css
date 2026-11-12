@@ -8,14 +8,7 @@
 }
 
 .homepage-art {
-  display: block;
   margin: 1rem 0 0;
-}
-
-.homepage-art img {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 .homepage-art figcaption {
