@@ -4,6 +4,8 @@ image: assets/photo.jpeg
 image-alt: "Portrait of Tynan Challenor"
 about:
   template: solana
+  image-shape: round
+  image-width: 15em
   links:
     - icon: github
       text: "GitHub"
@@ -25,10 +27,7 @@ about:
 
 Welcome! I am third year PhD student in economics at the University of Washington, specializing in urban and development economics.
 
-<figure class="homepage-art" style="width: min(100%, 204px);">
-  <img src="assets/seattle_paul_gustin.jpg" width="204" class="img-fluid" alt="Boats moored along the Seattle waterfront, with light reflecting across the water">
-  <figcaption>
-    Reflections:  A Scene on the Seattle Waterfront by Paul Gustin
-    <span class="homepage-art-credit">Public domain via <a href="https://picryl.com/">Picryl</a></span>
-  </figcaption>
+<figure class="homepage-art" style="width: min(100%, 400px);">
+  <img src="assets/seattle_paul_gustin.jpg" width="400" class="img-fluid" alt="Boats moored along the Seattle waterfront, with light reflecting across the water">
+  <figcaption>Public domain via <a href="https://picryl.com/">Picryl</a></figcaption>
 </figure>
