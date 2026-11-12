@@ -1,1 +1,44 @@
-/* css styles */
+.homepage-art {
+  display: block;
+  width: min(100%, 20rem);
+  margin: 1rem auto 2rem;
+}
+
+.homepage-art img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.homepage-art figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.homepage-art-credit {
+  display: block;
+  margin-top: 0.25rem;
+}
+
+@media (min-width: 1200px) {
+  #quarto-content > main:has(> .homepage-art) {
+    display: grid;
+    grid-column: screen-start / screen-end;
+    grid-template-columns: subgrid;
+  }
+
+  #quarto-content > main:has(> .homepage-art) > .quarto-about-solana {
+    grid-column: body-start / body-end;
+    grid-row: 1;
+  }
+
+  #quarto-content > main > .homepage-art {
+    grid-column: screen-start / body-start;
+    grid-row: 1;
+    align-self: start;
+    justify-self: end;
+    width: min(14rem, calc(100% - 2rem));
+    margin: 3em 1rem 2rem;
+  }
+}
